@@ -1,0 +1,210 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: 'Playfair Display', serif;
+
+}
+/*header start*/
+header{
+	background-color: #3B5998;
+}
+.wrapper{
+	width: 85%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+    float: left;
+    width: 20%;
+    overflow: hidden;
+}
+.logo h1{
+    width: 100%;
+    font-size: 50px;
+    color: #fff;
+}
+/*header end*/
+/*input start*/
+.from{
+    width: 45%;
+    float: right;
+    overflow: hidden;
+}
+.from_email{
+    float: left;
+    width:35%;
+    overflow: hidden;
+    margin: 5px 0;
+}
+.from_email label{
+    color: #fff;
+    font-size: 15px;
+    float: left;
+}
+.from_email input{
+    border-radius: 5px;
+    padding: 3px 4px;
+}
+.check{
+    margin-top: 5px;
+    float: left;
+    color: #fff;
+    padding: 7px o;
+    font-size: 12px;
+}
+.check p{
+    float: left;
+    padding: 2px;
+}
+.check input{
+    margin: 5px;
+    float: left;
+}
+.from_pass{
+    padding: 5px 0;
+    float: left;
+    width: 35%;
+    margin: 0 20px;
+    overflow: hidden;
+}
+.from_pass label{
+    color: #fff;
+    font-size: 15px;
+    float: left;
+}
+.from_pass input{
+    border-radius: 5px;
+    padding: 3px 4px;
+}
+
+.hrf a{
+    font-size: 12px;
+    color: #fff;
+}
+.hrf a:hover {
+    color: #000;
+}
+.button{
+    float: left;
+    margin: 25px 0px;
+}
+.button button{
+    padding: 2px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.button button:hover {
+    background-color: #0078D7;
+    color: #fff;
+}
+/*input end*/
+/*banner start*/
+section{
+    overflow: hidden;
+    background: linear-gradient(#fff, #D3D8E8)
+}
+.image{
+    float: left;
+    margin: 50px 0;
+    width: 50%;
+}
+.image p{
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.image img{
+    width: 100%;
+}
+.info{
+    width: 45%;
+    float: right;
+}
+.info h1{
+    font-size: 40px;
+    margin: 15px 0;
+}
+.info p{
+    margin-top: 30px;
+}
+/*banner end*/
+/*user info start*/
+.name{
+    margin-top: 15px;
+    overflow: hidden;
+    font-size: 20px;
+}
+.name input{
+    float: left;
+    width: 72%;
+    padding: 9px 10px;
+    border-radius: 5px;
+    border: 1px solid;
+    font-size: 20px;
+}
+.birthday{}
+.birthday p{
+    margin-bottom: 5px;
+}
+.birthday a{
+    font-size: 15px;
+    margin: 15px 0;
+}
+.gender{
+    margin-top: 20px;
+
+}
+.gender h3{}
+.gender input{
+    margin: 20px 5px;
+}
+.button1{
+}
+.button1 button{
+    background-color: #5E984A;
+    color: #ffffff;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+.button1 button:hover{
+    background-color: #578a45;
+}
+.last_text {
+    width: 100%;
+    margin: 15px 0;
+    font-size: 15px;
+}
+/*user info end*/
+/*footer start*/
+.footer_content {
+    overflow: hidden;
+    margin: 25px 0;
+}
+.footer_content ul {
+    text-align: center;
+}
+.footer_content p {
+    float: left;
+    padding-right: 10px;
+}
+.footer_content ul li {
+    float: left;
+    list-style: none;
+}
+.footer_content ul li a {
+    font-size: 15px;
+    padding: 0px 5px;
+}
+.footer_content button {
+    padding: 0px 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
